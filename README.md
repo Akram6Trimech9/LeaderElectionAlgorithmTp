@@ -1,4 +1,4 @@
 # LeaderElectionAlgorithmTp
 
 1 - Mvn install 
-2 - Run as a spring project
+2 - Run it  as a spring project
