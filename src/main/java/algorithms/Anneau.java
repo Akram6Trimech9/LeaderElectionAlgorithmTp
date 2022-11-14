@@ -39,35 +39,3 @@ public class Anneau {
 		t.start();
 	}
 }
-//public class Anneau {
-//
-//	public static void main(String[] args) {
-//		Scanner scanner = new Scanner(System.in);
-//		 System.out.println("Donner la taille de votre anneau ");
-//		  List<String> list = new ArrayList<String>() ; 
-//	    	int n = scanner.nextInt();   
-//	    	 for(int i=0 ; i < n ; i++) {
-//	  		   System.out.println("donner le nom de noeud 1 ");  
-//		    	String nom = scanner.nextLine();   
-//              list.add(nom);
-//	    	 }
-//		   Topology tp = new Topology();
-//		   
-//		   tp.disableWireless();
-//	    	 for(int i=0 ; i < n ; i++) {
-//	  		   Tnode  (String)list.get(i); 
-//	    	 }
-//	    	 }
-//		   Tnode node1 = new Tnode(1);
-//		   
-//		   tp.addNode(node0);
-//		   tp.addNode(node1);
-//		   
-//		   tp.addLink(new Link(node0, node1, Link.Orientation.DIRECTED));
-//		   tp.addLink(new Link(node1, node0, Link.Orientation.DIRECTED));
-// 
-//	        new JViewer(tp);
-//	        tp.start();
-//	}
-
-//}
