@@ -43,13 +43,3 @@ public class Tnode extends Node implements ClockListener, MessageListener{
  
 
  
-
-//@Override
-//public void onMessage(Message message) {
-//	if((Integer) message.getContent()==getID()) {
-//		System.out.println(getID()+"Leader");
-//	}else if((Integer) message.getContent() > getID()) {
-//		send(getOutNeighbors().get(0),new Message(message.getContent()));
-//	}
-// }
-//}
